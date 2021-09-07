@@ -1,5 +1,4 @@
 #sideNav {
-  .navbar-brand {}
   .navbar-nav .nav-item .nav-link {
     font-weight: 600;
     text-transform: uppercase;
@@ -24,9 +23,10 @@
       margin: auto auto 0;
       padding: 0.5rem;
       .img-profile {
-        max-width: 10rem;
-        max-height: 10rem;
-        border: 0.5rem solid fade-out($white, 0.8);
+        width: 7rem;
+        height: 7rem;
+        background-position: center;
+        background-size: cover;
       }
     }
     .navbar-collapse {
